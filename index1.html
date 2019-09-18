@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title></title>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="index.css">
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+<script type="text/javascript" src="index.js"></script>
+<style>
+  #t2 {
+    border:2px solid darkgray;
+  }
+</style>
+  </head>
+  <body>
+
+    <center>
+
+
+     <table id="t2" style="width:100%;background-color:#8B4513;">
+      <tr style="color:white;text-align:center;">
+        <td style="color:white;background-color:black;border:15px solid black;width:1%;font-size:30px;">BLACK</td>
+        <td id ="score1"></td>
+        <td style="font-size:30px;" >Vs</td>
+        <td id ="score2"></td>
+        <td style="color:black;background-color:white;border:15px solid white;width:1%;font-size:30px;">WHITE</td>
+
+              
+
+
+
+        </table>
+
+
+      <table id="t1">
+        <tr>
+          <td><button id="r11" onclick=move(0,0)></button></td>
+          <td><button id="r12" onclick=move(0,1)></button></td>
+          <td><button id="r13" onclick=move(0,2)></button></td>
+          <td><button id="r14" onclick=move(0,3)></button></td>
+          <td>
+            <button id="r15" onclick=move(0,4)></button></td>
+          <td><button id="r16" onclick=move(0,5)></button></td>
+          <td><button id="r17" onclick=move(0,6)></button></td>
+          <td><button id="r18" onclick=move(0,7)></button></td>
+        </tr>
+        <tr>
+          <td>
+            <button id="r21" onclick=move(1,0)></button></td>
+          <td><button id="r22" onclick=move(1,1)></button></td>
+          <td><button id="r23" onclick=move(1,2)></button></td>
+          <td><button id="r24" onclick=move(1,3)></button></td>
+          <td>
+            <button id="r25" onclick=move(1,4)></button></td>
+          <td><button id="r26" onclick=move(1,5)></button></td>
+          <td><button id="r27" onclick=move(1,6)></button></td>
+          <td><button id="r28" onclick=move(1,7)></button></td>
+        </tr>
+      <tr>
+        <td>
+          <button id="r31" onclick=move(2,0)></button></td>
+        <td><button id="r32" onclick=move(2,1)></button></td>
+        <td><button id="r33" onclick=move(2,2)></button></td>
+        <td><button id="r34" onclick=move(2,3)></button></td>
+        <td>
+          <button id="r35" onclick=move(2,4)></button></td>
+        <td><button id="r36" onclick=move(2,5)></button></td>
+        <td><button id="r37" onclick=move(2,6)></button></td>
+        <td><button id="r38" onclick=move(2,7)></button></td>
+      </tr>
+      <tr>
+        <td>
+          <button id="r41" onclick=move(3,0)></button></td>
+        <td><button id="r42" onclick=move(3,1)></button></td>
+        <td><button id="r43" onclick=move(3,2)></button></td>
+        <td><button id="r44" onclick=move(3,3)></button></td>
+        <td>
+          <button id="r45" onclick=move(3,4)></button></td>
+        <td><button id="r46" onclick=move(3,5)></button></td>
+        <td><button id="r47" onclick=move(3,6)></button></td>
+        <td><button id="r48" onclick=move(3,7)></button></td>
+      </tr>
+      <tr>
+        <td>
+          <button id="r51" onclick=move(4,0)></button></td>
+        <td><button id="r52" onclick=move(4,1)></button></td>
+        <td><button id="r53" onclick=move(4,2)></button></td>
+        <td><button id="r54" onclick=move(4,3)></button></td>
+        <td>
+          <button id="r55" onclick=move(4,4)></button></td>
+        <td><button id="r56" onclick=move(4,5)></button></td>
+        <td><button id="r57" onclick=move(4,6)></button></td>
+        <td><button id="r58" onclick=move(4,7)></button></td>
+      </tr>
+      <tr>
+      <tr>
+        <td>
+          <button id="r61" onclick=move(5,0)></button></td>
+        <td><button id="r62" onclick=move(5,1)></button></td>
+        <td><button id="r63" onclick=move(5,2)></button></td>
+        <td><button id="r64" onclick=move(5,3)></button></td>
+        <td>
+          <button id="r65" onclick=move(5,4)></button></td>
+        <td><button id="r66" onclick=move(5,5)></button></td>
+        <td><button id="r67" onclick=move(5,6)></button></td>
+        <td><button id="r68" onclick=move(5,7)></button></td>
+      </tr>
+      <tr>
+      <tr>
+        <td>
+          <button id="r71" onclick=move(6,0)></button></td>
+        <td><button id="r72" onclick=move(6,1)></button></td>
+        <td><button id="r73" onclick=move(6,2)></button></td>
+        <td><button id="r74" onclick=move(6,3)></button></td>
+        <td>
+          <button id="r75" onclick=move(6,4)></button></td>
+        <td><button id="r76" onclick=move(6,5)></button></td>
+        <td><button id="r77" onclick=move(6,6)></button></td>
+        <td><button id="r78" onclick=move(6,7)></button></td>
+      </tr>
+      <tr>
+        <td>
+          <button id="r81" onclick=move(7,0)></button></td>
+        <td><button id="r82" onclick=move(7,1)></button></td>
+        <td><button id="r83" onclick=move(7,2)></button></td>
+        <td><button id="r84" onclick=move(7,3)></button></td>
+        <td>
+          <button id="r85" onclick=move(7,4)></button></td>
+        <td><button id="r86" onclick=move(7,5)></button></td>
+        <td><button id="r87" onclick=move(7,6)></button></td>
+        <td><button id="r88" onclick=move(7,7)></button></td>
+      </tr>
+
+      </table>
+      <br>
+     
+
+           
+        <button type="button" name="button" id="id1" onclick=gameover() >QUIT</button>
+
+    </center>
+
+</html>

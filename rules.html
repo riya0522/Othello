@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rules</title>
+	<!-- <meta name="viewport" contact="width=device-width,initial scale 1.0"> -->
+</head>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Lobster');
+	@import url('https://fonts.googleapis.com/css?family=Monoton');
+	@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+	#rules
+	{
+		font-size: 50px;
+		text-align: center;
+		margin-top: 100px;
+	}
+	body
+	{
+		background-size: 100%;
+		background-color: #008000;
+		background-repeat: no-repeat;
+	}
+	#l1
+	{
+		margin: auto;
+		color: white;
+		padding-left: 40px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+	}
+	div
+	{
+		/*margin-left: 260px;*/
+		margin: auto;
+		width: 60%;
+		/*height: 70%*/
+		background-color: #8B4513;
+		border: 4px solid grey;
+		text-shadow: -1px -1px black,1px 1px white;
+		box-shadow: 0 0.2em grey;
+		border-radius: 7px;
+	}
+	#r1
+	{
+		font-size: 60px;
+		font-family: 'Press Start 2P', cursive;
+		color: #DAA520;
+	}
+	button
+	{
+		/*margin-right: 100px;*/
+		font-size: 30px;
+		background-color: #8B4513;
+		color: #DAA520;
+		font-family: 'Press Start 2P';
+		padding-top: 12px;
+		cursor: pointer;
+		text-shadow: -1px -1px black,1px 1px white;
+		box-shadow: 0 0.2em grey;
+		border-radius: 7px;
+	}
+	@media (max-width: 1200px) {
+		div {
+			margin: auto;
+			background-color: #8B4513;
+			width: 80%;
+		}
+		#r1 {
+			//font-size: 45px;
+		}
+	}
+	@media (max-width: 750px) {
+		div {
+			/*margin-left: 50px;*/
+			margin: auto;
+			width: 80%;
+		}
+		#r1
+		{
+			font-size: 30px;
+		}
+	}
+</style>
+<body background="img/trial5.jpg">
+<div>
+	<center><h1 id="r1">RULES</h1></center>
+
+
+	<ul id="l1">
+
+		<li>Black plays first and draws a single disc and places it on a valid spot on the grid.</li>
+		<li> You must place a disc on a spot that allows you to “flank” or “capture” at least one of your opponent’s discs by bordering them in a row.</li>
+		<li>You must flip all captured discs to your color.</li>
+		<li>To capture your opponent’s discs you must have 1 of your own pieces at the end of a row and then on your turn place a new piece at the beginning of the row.</li>
+		<li> Everything in between on that row is now flipped to your color.</li>
+
+		<li>You can only capture rows of a single color adjacent to each other; there cannot be any open space or your own discs between them or the combo is interrupted</li>
+		<li>You can flank any number of discs.</li>
+		<li> You may capture discs vertically, horizontally, diagonally. You may capture in multiple directions at the same time. </li>
+		<li>All discs that can be flipped must be flipped. You cannot pick and choose which ones are captured.</li>
+		<li>If you cannot make a valid move then your turn is forfeit and your opponent may go again. </li>
+		<li>If you have a valid move available to you then you must make that move and are not allowed to forfeit your turn.</li>
+		<li>When neither player can make any further play then the game is over.</li>
+		<li>Each player counts the number of spaces occupied by their color. Highest count is the winner. Games can end before all spaces are filled.</li>
+	</ul>
+
+</div>
+<br>
+<br><br>
+<center>
+
+	<a href="players.html">	<button type="button" name="button">CONTINUE</button></a>
+
+</center>
+
+
+</body>
+</html>

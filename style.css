@@ -1,0 +1,40 @@
+
+
+h1 {
+	margin-top: 150px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 100px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	color: #343434;
+}
+
+
+
+body
+{
+	
+	background-size: 100%;
+
+	
+	background-repeat: no-repeat;
+	
+}
+
+#h11
+{
+	margin-top: 200px;
+	font-size: 100px   ;
+	font-family: arial;
+	font-style: bold;
+	color: white;
+
+}
+#b1
+{
+	margin-top: 450px;
+	margin-left: 140px;
+	height: 70px;
+	width: 15%;
+	font-size: 20px;
+
+}
