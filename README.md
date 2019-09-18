@@ -1,2 +1,2 @@
 # Othello
-Othello Game - Made uisng HTML, CSS and Javascript
+Othello Game - Made using HTML, CSS and Javascript
